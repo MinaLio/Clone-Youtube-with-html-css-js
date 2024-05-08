@@ -1,0 +1,466 @@
+   <!DOCTYPE html>
+   <html lang="en">
+
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link type="images/png" rel="icon" href="images/icons8-youtube.png">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous" />
+     <link rel="stylesheet" href="css/style.css">
+     <title>Youtube </title>
+   </head>
+
+   <body>
+     <!-- HEADER -->
+     <header class="header">
+       <div class="header_container">
+         <div class="none"> </div>
+         <div class="search">
+           <input type="text" placeholder="Search">
+           <i class="fa-solid fa-magnifying-glass"></i>
+         </div>
+
+
+         <div class="user">
+           <div class="icon">
+             <i class="fa-solid fa-video"></i>
+             <i class="fa-solid fa-grip"></i>
+             <i class="fa-solid fa-bell"></i>
+           </div>
+
+           <div class="img">
+             <img src="images/logo.png" alt="">
+           </div>
+         </div>
+
+         <div class="toggle">
+           <i class="fa-solid fa-bars" id="header-toggle"></i>
+         </div>
+       </div>
+     </header>
+     <!-- HEADER -->
+
+     <!-- NAV -->
+     <section class="nav" id="navbar">
+       <nav class="nav_container">
+         <div>
+           <a href="#" class="nav_link nav_logo ">
+             <i class="fa-solid fa-bars nav_icon"></i>
+             <span class="logo_name">
+               <i class="fab fa-youtube"></i>
+               Youtube
+             </span>
+           </a>
+
+           <div class="nav_list">
+             <div class="nav_items navtop">
+               <a href="#" class="nav_link navtop active">
+                 <i class="fa fa-house nav_icon"></i>
+                 <span class="nav_name">Home</span>
+               </a>
+               <a href="#" class="nav_link navtop">
+                 <i class="fa fa-compass nav_icon"></i>
+                 <span class="nav_name">Explore</span>
+               </a>
+               <a href="#" class="nav_link navtop">
+                 <i class="fa-brands fa-tiktok nav_icon"></i>
+                 <span class="nav_name">Short Video</span>
+               </a>
+               <a href="#" class="nav_link navtop">
+                 <i class="fa-solid fa-users nav_icon"></i>
+                 <span class="nav_name">Channel</span>
+               </a>
+               <a href="#" class="nav_link navtop">
+                 <i class="fa-solid fa-video nav_icon"></i>
+                 <span class="nav_name">Library</span>
+               </a>
+               <a href="#" class="nav_link navtop">
+                 <i class="fa-solid fa-clock-rotate-left nav_icon"></i>
+                 <span class="nav_name">History</span>
+               </a>
+               <a href="#" class="nav_link navtop">
+                 <i class="fa-solid fa-thumbs-up nav_icon"></i>
+                 <span class="nav_name">Like</span>
+               </a>
+
+               <div class="nav_dropdown">
+                 <a href="#" class="nav_link">
+                   <i class="fa-solid fa-chevron-down nav_icon"></i>
+                   <span class="nav_name">Show More</span>
+                 </a>
+
+                 <div class="nav_dropdown-collapse">
+                   <div class="nav_dropdown-content">
+                     <a href="#" class="nav_dropdown-item">Grid Box</a>
+                     <a href="#" class="nav_dropdown-item">Frontend Design</a>
+                     <a href="#" class="nav_dropdown-item">Backend Design</a>
+                   </div>
+                 </div>
+               </div>
+
+               <a href="#" class="nav_link">
+                 <i class="fa-solid fa-comment nav_icon"></i>
+                 <span class="nav_name">Messages</span>
+               </a>
+             </div>
+
+             <div class="nav_items subscribe-container">
+               <h3 class="nav_subititle">SUBSCRIPTIONS</h3>
+
+               <a href="#" class="nav_link">
+                 <img class="subscribe" src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" alt="">
+                 <span class="nav_name">GorkCoder</span>
+               </a>
+               <a href="#" class="nav_link">
+                 <img class="subscribe" src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
+                 <span class="nav_name">React Maste</span>
+               </a>
+               <a href="#" class="nav_link">
+                 <img class="subscribe" src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/64/000000/external-boy-children-avatar-victoruler-linear-colour-victoruler-2.png" />
+                 <span class="nav_name">Backend Development</span>
+               </a>
+               <a href="#" class="nav_link">
+                 <img class="subscribe" src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+                 <span class="nav_name">Frontend Development</span>
+               </a>
+
+               <div class="nav_dropdown">
+                 <a href="#" class="nav_link">
+                   <i class="fa-solid fa-chevron-down nav_icon"></i>
+                   <span class="nav_name">Show 3 More</span>
+                 </a>
+
+                 <div class="nav_dropdown-collapse nav_dropdown-second">
+                   <div class="nav_dropdown-content">
+                     <a href="#" class="nav_dropdown-items">
+                       <img class="subscribe" src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+                       <span class="nav_name">Frontend Design</span>
+                     </a>
+                     <a href="#" class="nav_dropdown-items">
+                       <img class="subscribe" src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+                       <span class="nav_name">Backend Design</span>
+                     </a>
+                     <a href="#" class="nav_dropdown-items">
+                       <img class="subscribe" src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+                       <span class="nav_name">Backend Design</span>
+                     </a>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </nav>
+     </section>
+     <!-- NAV -->
+
+     <main>
+       <section class="video_content grid">
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back1.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="images/logo.png" alt="">
+             </div>
+             <div class="heading">
+               <p>Sing my a song</p>
+               <span>Annabella <i class="fa fa-circle-check"></i> </span>
+               <span>1,2T . 5 years ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back2.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" />
+             </div>
+             <div class="heading">
+               <p>Đường đến chung kết Arena Of Valor</p>
+               <span>AOV Việt Nam <i class="fa fa-circle-check"></i> </span>
+               <span>118,2N . 1 week ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back3.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
+             </div>
+             <div class="heading">
+               <p>RETRO GAMING with caddicarus</p>
+               <span>Retro Gaming <i class="fa fa-circle-check"></i> </span>
+               <span>90N . 2 weeks ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back4.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/64/000000/external-boy-children-avatar-victoruler-linear-colour-victoruler-2.png" />
+             </div>
+             <div class="heading">
+               <p>Thử thách vui nhộn phần 3</p>
+               <span>Goddon and Ron <i class="fa fa-circle-check"></i> </span>
+               <span>2,5M . 1 week ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back5.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+             </div>
+             <div class="heading">
+               <p>Music Night - Khánh Vy, Hạ Linh,...</p>
+               <span>VieNETWORK <i class="fa fa-circle-check"></i> </span>
+               <span>112N . 3 days ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back6.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="images/logo.png" alt="">
+             </div>
+             <div class="heading">
+               <p>Dành hết xuân thì để chờ nhau - Vũ. feat. Hà Anh Tuấn</p>
+               <span>Hà Anh Tuấn <i class="fa fa-circle-check"></i> </span>
+               <span>23,8M . 2 months ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back7.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" />
+             </div>
+             <div class="heading">
+               <p>How to get thousands of views</p>
+               <span>Youtube Academy <i class="fa fa-circle-check"></i> </span>
+               <span>741M . 3 years ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back8.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
+             </div>
+             <div class="heading">
+               <p>Introducing Samples</p>
+               <span>GorkAsm <i class="fa fa-circle-check"></i> </span>
+               <span>56.6M . 1 week ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back9.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/64/000000/external-boy-children-avatar-victoruler-linear-colour-victoruler-2.png" />
+             </div>
+             <div class="heading">
+               <p>Hát hát nữa hát mãi</p>
+               <span>Music in live <i class="fa fa-circle-check"></i> </span>
+               <span>213,2M . 2 weeks ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back10.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+             </div>
+             <div class="heading">
+               <p>Super Jojo ep 23</p>
+               <span>Jojo and friends <i class="fa fa-circle-check"></i> </span>
+               <span>147M . 1 year ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back11.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="images/logo.png" alt="">
+             </div>
+             <div class="heading">
+               <p>Youtube Thumbnail</p>
+               <span>Youtube Academy <i class="fa fa-circle-check"></i> </span>
+               <span>911N . 1 year ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back12.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" />
+             </div>
+             <div class="heading">
+               <p>Kinh doanh cùng với Youtube: Phương pháp thu hút khách hàng tiềm năng</p>
+               <span>Unica <i class="fa fa-circle-check"></i> </span>
+               <span>56,8M .1 week ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back13.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
+             </div>
+             <div class="heading">
+               <p>EDM Tiktok hot trend 2024</p>
+               <span>Nhạc trẻ VN <i class="fa fa-circle-check"></i> </span>
+               <span>55,2M . 1 month ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back14.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/64/000000/external-boy-children-avatar-victoruler-linear-colour-victoruler-2.png" />
+             </div>
+             <div class="heading">
+               <p>Where music grows</p>
+               <span>Doja Cat <i class="fa fa-circle-check"></i> </span>
+               <span>15.7M . 1 day ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back15.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+             </div>
+             <div class="heading">
+               <p>Chương trình Mẹ chồng nàng dâu tập 37</p>
+               <span>Mẹ chồng Nàng dâu <i class="fa fa-circle-check"></i> </span>
+               <span>112N . 2 months ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back16.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="images/logo.png" alt="">
+             </div>
+             <div class="heading">
+               <p>EUROPA LEAGUE highlights Marseille and Atalanta</p>
+               <span>EUROPA LEAGUE <i class="fa fa-circle-check"></i> </span>
+               <span>756.7N . 5 months ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back17.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" />
+             </div>
+             <div class="heading">
+               <p>Sao trời làm gió - Hồ Phi Nal</p>
+               <span>H20 Music <i class="fa fa-circle-check"></i> </span>
+               <span>45.7N . 1 week ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back18.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-occupation-and-people-victoruler-flat-victoruler.png" />
+             </div>
+             <div class="heading">
+               <p>VJ là nghề gì?</p>
+               <span>VietCetera <i class="fa fa-circle-check"></i> </span>
+               <span>237,8N . 1 month ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back19.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/64/000000/external-boy-children-avatar-victoruler-linear-colour-victoruler-2.png" />
+             </div>
+             <div class="heading">
+               <p>Lạc Trôi official music video- Sơn Tùng MTP</p>
+               <span>MTP Entertainment <i class="fa fa-circle-check"></i> </span>
+               <span>324,9M . 7 years ago</span>
+             </div>
+           </div>
+         </div>
+         <div class="video_items">
+           <a href="single-page.html">
+             <img src="images/video_images/back20.jpg" alt="">
+           </a>
+           <div class="details flex">
+             <div class="img">
+               <img src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-children-avatar-victoruler-flat-victoruler-12.png" />
+             </div>
+             <div class="heading">
+               <p>Sóng Gió - Jack & K-ICM</p>
+               <span>JK Entertainment <i class="fa fa-circle-check"></i> </span>
+               <span>277M . 5 years ago</span>
+             </div>
+           </div>
+         </div>
+       </section>
+     </main>
+
+
+     <script src="js/main.js" charset="utf-8"></script>
+   </body>
+
+   </html>
